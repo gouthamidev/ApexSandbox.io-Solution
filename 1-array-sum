@@ -6,5 +6,5 @@ public static Integer arraySum(List<Integer> numbers) {
         Integer sum = SumList[i] + numbers[i + 1];
         SumList.add(sum);
     }
-    return SumList;
+    return sum;
 }
