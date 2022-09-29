@@ -1,5 +1,6 @@
 public static Integer arraySum(List<Integer> numbers) {
     //code here
     list<numbers> numlst = new list<numbers> ();
-    
+    numlst.add(5);
+    numlst.add(5);
 }
