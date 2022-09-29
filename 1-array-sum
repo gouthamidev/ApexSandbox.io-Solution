@@ -1,9 +1,9 @@
 public static Integer arraySum(List<Integer> numbers) {
     //code here
     List < Integer > SumList = new List < Integer > ();
-    movingSumList.add(arr[0]);
-    for (Integer i = 0; i < arr.size() - 1; i++) {
-        Integer sum = SumList[i] + arr[i + 1];
+    movingSumList.add(numbers[0]);
+    for (Integer i = 0; i < numbers.size() - 1; i++) {
+        Integer sum = SumList[i] + numbers[i + 1];
         SumList.add(sum);
     }
     return SumList;
