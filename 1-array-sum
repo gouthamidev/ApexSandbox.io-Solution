@@ -1,8 +1,6 @@
 public static Integer arraySum(List<Integer> numbers) {
     //code here
-   *
-
-    List < Integer > movingSumList = new List < Integer > ();
+    List < Integer > SumList = new List < Integer > ();
     movingSumList.add(arr[0]);
     for (Integer i = 0; i < arr.size() - 1; i++) {
         Integer sum = movingSumList[i] + arr[i + 1];
