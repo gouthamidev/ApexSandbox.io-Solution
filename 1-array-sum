@@ -3,4 +3,12 @@ public static Integer arraySum(List<Integer> numbers) {
     list<numbers> numlst = new list<numbers> ();
     numlst.add(5);
     numlst.add(5);
+
+    List < Integer > movingSumList = new List < Integer > ();
+    movingSumList.add(arr[0]);
+    for (Integer i = 0; i < arr.size() - 1; i++) {
+        Integer sum = movingSumList[i] + arr[i + 1];
+        movingSumList.add(sum);
+    }
+    return movingSumList;
 }
