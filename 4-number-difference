@@ -1,0 +1,28 @@
+public Integer diff(Integer a, Integer b) {
+Integer result =0;
+//code here
+integer var1;
+integer var2;
+integer greaterno;
+integer smallerno;
+
+if(a >= 0 ){
+var1 = a;
+
+}
+
+if(b >= 0 ){
+var2 = b;
+
+}
+if (var1 > var2){
+    greaterno = var1 ;
+    result = var1 - var2;
+} else {
+     greaterno = var2 ;
+      result = var2 - var1;
+}
+
+
+return result;
+}
