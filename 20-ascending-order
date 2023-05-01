@@ -7,10 +7,10 @@ public Boolean ascendingOrder(Integer a, Integer b, Integer c) {
             result = true;
         }
         if ((b >= c )|| (b >= a)){
-            result = true;
+            result = false;
         }
         if ((c >= b )){
-            result = false;
+            result = true;
         }
         return result;
     }
