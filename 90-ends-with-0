@@ -2,7 +2,12 @@ public Boolean isEndWithZero(Integer num){
 
      //code here
      boolean result ;
-        if (math.mod(num, 5) <= 0 ||(math.mod(num, 5)) == 0 ||(math.mod(num, 10)) == 0 || Math.abs(num) == 0 ){
+        if(
+            (
+                (math.mod(num, 10)) == 0)  ||
+                (math.mod(num, 5) <= 0) ||
+                (math.mod(num, 5)) == 0 
+                || Math.abs(num) == 0 ){
             result = true;
         }
         result = false;
