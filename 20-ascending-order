@@ -3,14 +3,12 @@ public Boolean ascendingOrder(Integer a, Integer b, Integer c) {
 
   boolean result  ;
         integer num1 ,num2,num3 , num4;
-       if ((a >= b )|| (a >= c)){
-            result = true;
-        }
+       
         if ((b >= c )|| (b >= a)){
-            result = false;
+            result = true;
         }
         if ((c >= b )){
-            result = true;
+            result = false;
         }
         return result;
     }
