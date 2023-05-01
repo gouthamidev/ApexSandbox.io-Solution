@@ -1,14 +1,8 @@
 public Boolean ascendingOrder(Integer a, Integer b, Integer c) {
-    //code here
-
-  boolean result  ;
-        integer num1 ,num2,num3 , num4;
-       
-        if ((b >= c )|| (b >= a)){
-            result = true;
-        }
-        if ((c >= b )){
-            result = false;
-        }
-        return result;
-    }
+    if (b >= a && c >= b) return true;
+    else return false;
+}
+/**
+public Boolean ascendingOrder(Integer a, Integer b, Integer c) {
+    return b >= a && c >= b;
+}**/
