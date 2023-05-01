@@ -1,19 +1,19 @@
 public String aOrAn(String word) {
     //code here
-
- string result;
-        string vowel1 = 'a';
-        string vowel2 = 'e';
-        string vowel3 = 'i';
-        string vowel4 = 'o';
-        string vowel5 = 'u';
-        if(word.startsWith(vowel1) || word.startsWith(vowel2) || word.startsWith('i') || word.startsWith('o') || word.startsWith('u'))
-        {
-            result = 'a'+word;
-        }
-        else 
-        {
-            result = 'an '+word;
-        }
-        return result;
-        }
+    //Check for Blank String
+    if(String.isBlank(word)){
+        return word;
+    }
+    //Check for Word starts with Vowel or not
+    if(
+        word.startsWithIgnoreCase('a') ||
+        word.startsWithIgnoreCase('e') || 
+        word.startsWithIgnoreCase('i') ||
+        word.startsWithIgnoreCase('o') || 
+        word.startsWithIgnoreCase('u')
+    ){
+        return 'an ' + word;
+    }else{
+        return 'a ' + word;
+    }
+}
