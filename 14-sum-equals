@@ -1,0 +1,18 @@
+public Boolean sumEquals(Integer a, Integer b, Integer c) {
+   //code here
+        boolean result  ;
+        integer num1 ,num2,num3 , num4;
+        num1=a;
+        num2=b;
+        num3= a+b;
+        num4=c;
+        if(num3 ==  num4){
+            result = true;
+        }
+        else {
+            result = false;
+        }
+        
+        
+        return result;
+    }
