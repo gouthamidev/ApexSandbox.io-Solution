@@ -1,10 +1,7 @@
 public List<String> getNamesInAscOrder(List<String> accountNames)
 {
-           list<String> SortedResults = new  list<String>() ;
-        //code here
-        List<String> fullNames = new List<String> { 'Blake Howard', 'Adrienne Copeland'};
-            //  for (string s :fullNames ){
-         fullNames.sort();
-        system.debug('>>'+SortedResults);     
-        return  fullNames;
+                accountNames.sort();
+    system.debug('>>'+accountNames);     
+    return accountNames;    
 }
+
